@@ -74,87 +74,87 @@
 }
 
 ._icon-arrow:before {
-  content: "";
+  content: "\e902";
   margin: 0px 10px 0px 0px;
 }
 
 ._icon-mail:before {
-  content: "";
+  content: "\e905";
   margin: 0px 10px 0px 0px;
 }
 
 ._icon-skype:before {
-  content: "";
+  content: "\e906";
   margin: 0px 10px 0px 0px;
 }
 
 ._icon-telegram:before {
-  content: "";
+  content: "\e907";
   margin: 0px 10px 0px 0px;
 }
 
 ._icon-android:before {
-  content: "";
+  content: "\e900";
 }
 
 ._icon-apple:before {
-  content: "";
+  content: "\e901";
 }
 
 ._icon-arrow-b:before {
-  content: "";
+  content: "\e903";
 }
 
 ._icon-benefits:before {
-  content: "";
+  content: "\e904";
 }
 
 ._icon-vert1:before {
-  content: "";
+  content: "\e908";
 }
 
 ._icon-vert2:before {
-  content: "";
+  content: "\e909";
 }
 
 ._icon-vert3:before {
-  content: "";
+  content: "\e90a";
 }
 
 ._icon-vert4:before {
-  content: "";
+  content: "\e90b";
 }
 
 ._icon-vert5:before {
-  content: "";
+  content: "\e90c";
 }
 
 ._icon-vert6:before {
-  content: "";
+  content: "\e90d";
 }
 
 ._icon-work1:before {
-  content: "";
+  content: "\e90e";
 }
 
 ._icon-work2:before {
-  content: "";
+  content: "\e90f";
 }
 
 ._icon-work3:before {
-  content: "";
+  content: "\e910";
 }
 
 ._icon-work4:before {
-  content: "";
+  content: "\e911";
 }
 
 ._icon-work5:before {
-  content: "";
+  content: "\e912";
 }
 
 ._icon-work6:before {
-  content: "";
+  content: "\e913";
 }
 
 * {
@@ -937,16 +937,19 @@ body.ie ._ibg img {
   -webkit-transform: translateX(30px);
       -ms-transform: translateX(30px);
           transform: translateX(30px);
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
 }
 
-.switch__wrapper input:checked ~ div:after {
+.switch__wrapper input:checked ~ span:after {
   color: #ffffff;
   -webkit-transition: color 0.3s ease 0s;
   -o-transition: color 0.3s ease 0s;
   transition: color 0.3s ease 0s;
 }
 
-.switch__wrapper input:checked ~ div:before {
+.switch__wrapper input:checked ~ span:before {
   color: #919191;
   -webkit-transition: color 0.3s ease 0s;
   -o-transition: color 0.3s ease 0s;
